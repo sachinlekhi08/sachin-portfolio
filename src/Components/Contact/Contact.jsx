@@ -18,7 +18,7 @@ const Contact = () => {
             <p>I'am currently available to take on new projects, so feel free to contact.</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /><p>sachinchaudhary123@gmail.com</p>
+                    <img src={mail_icon} alt="" /><p>sachinlekhi00@gmail.com</p>
                 </div>
                 <div className="contact-detail">
                     <img src={call_icon} alt="" /><p>+977 982-7368664</p>
@@ -33,8 +33,8 @@ const Contact = () => {
             <input type="text" name="name" placeholder='Enter your name' id="" />
             <label htmlFor="">Your Email</label>
             <input type="email" name="Email" placeholder='Enter your email' id="" />
-            <label htmlFor="">write yout message here</label>
-            <textarea name="message" rows="8" placeholder='Enter yout message' id=""></textarea>
+            <label htmlFor="">write your message here</label>
+            <textarea name="message" rows="8" placeholder='Enter your message' id=""></textarea>
             <button type='submit' className="contact-submit">Submit now</button>
         </form>
       </div>
